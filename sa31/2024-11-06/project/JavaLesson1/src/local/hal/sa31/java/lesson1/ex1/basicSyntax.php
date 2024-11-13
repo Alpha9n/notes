@@ -9,13 +9,13 @@
 $score = rand(0, 100);
 print("あなたの点数: ".$score."<br>");
 $msg = "";
-if (score >= 80) {
+if ($score >= 80) {
     $msg = "優です。";
 }
-else if (score >= 80) {
+else if ($score >= 80) {
     $msg = "良です。";
 }
-else if (score >= 80) {
+else if ($score >= 80) {
     $msg = "可です。";
 }
 else {

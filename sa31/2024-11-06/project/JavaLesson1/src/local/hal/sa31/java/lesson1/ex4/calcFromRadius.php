@@ -7,7 +7,7 @@
  * @author Shinzo SAITO
  */
 
-require_once("calcFromRadius.php");
+require_once("CalcCircleAndBall.php");
 
 $rList = [1, 3, 5, 7, 9];
 
